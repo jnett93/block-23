@@ -1,0 +1,80 @@
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#new-player-form{
+  border-style: double;
+  margin-right: 52%;
+  background-color: rgb(153, 153, 153);
+}
+
+div{
+  display: flex;
+}
+
+.player{
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 10%;
+  background-color: rgb(245, 170, 78);
+  margin-block: 10px;
+}
+
+.playerDetails{
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 10%;
+  background-color: rgb(245, 170, 78);
+}
+
+h2{
+  border-style: solid;
+  border-color: black;
+  padding-inline: 20%;
+  background-color: rgb(53, 53, 243);
+  color: white;
+  text-decoration: solid;
+}
+
+p{
+  border-style: solid;
+  border-color: black;
+  padding-inline: 10%;
+  background-color: rgb(53, 53, 243);
+  color: white;
+  text-decoration: solid;
+  margin: 5px;
+}
+
+img{
+  width: 50%;
+  justify-content: center;
+  border-style: solid;
+}
+
+body{
+  background-image: url("pup.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.close-button{
+  padding-inline: 10%;
+  margin: 5px;
+}
+
+.details-button{
+  margin: 5px;
+}
+
+.delete-button{
+  margin: 5px;
+}
